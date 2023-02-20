@@ -5,7 +5,9 @@ terraform {
   cloud {
     organization = "schan-test"
 
-    workspaces {}
+    workspaces {
+      name = "testing-migrate-state"
+    }
   }
 }
 
